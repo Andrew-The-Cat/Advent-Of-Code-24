@@ -1,6 +1,4 @@
-''' First Puzzle Solution 
-out1 = open("./TEST1.txt", "wt")
-out2 = open("./TEST2.txt", "wt")
+# First Puzzle Solution 
 file = open("./Puzzle Inputs/Puzzle 3.txt")
 cnt = 0
 
@@ -26,20 +24,19 @@ for line in file:
 
     if safe:
         cnt += 1
-        out1.write("Safe" + '\n')
+        print("Safe")
     else:
-        out1.write ("Unsafe" + '\n')
+        print("Unsafe")
 
-    out1.write (str(a) + '\n')
-    out1.write (str(b) + '\n')
-    out1.write ('\n')
+    print(str(a))
+    print(str(b))
+    print('\n')
 
-out1.write (str(cnt) + '\n')
-'''
+print (cnt)
 
-''' Second Puzzle Solution
+# Second Puzzle Solution
 
-    Rly wanted to find a better solution but I came up 6 answers short for 3 hours and I gave up :3
+# Rly wanted to find a better solution but I came up 6 answers short for 3 hours and I gave up :3
 
 file = open("./Puzzle Inputs/Puzzle 3.txt", "rt")
 
@@ -78,4 +75,3 @@ for line in file:
             break
 
 print(cnt)
-'''

@@ -9,7 +9,7 @@ def read(a, b, f_path):
         a.append(int(x))
         b.append(int(y))
 
-''' First Puzzle Solution
+# First Puzzle Solution
 def pivot(a, l, r):
     i = l
     j = r
@@ -47,9 +47,8 @@ for i, x in enumerate(a):
     sum += abs(x - b[i])
 
 print (sum)
-'''
 
-''' Second Puzzle Solution
+# Second Puzzle Solution
 sol = {}
 sum = 0
 a.clear()
@@ -67,4 +66,3 @@ for y in a:
         sum += y * sol[y]
 
 print (sum)
-'''
