@@ -4,7 +4,7 @@ file = open("Puzzle Inputs/Puzzle 21.txt")
 
 queue = []
 results = {}
-num_blinks = 5
+num_blinks = 25
 
 for num in file.readline().split(' '):
     queue.append( (int(num), 0) )
