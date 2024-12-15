@@ -64,7 +64,8 @@ print (cntIV * cntI * cntII * cntIII)
 
 
 #Second Puzzle Solution
-#I didn't exactly know how to check for a 'christmas tree' so I decided to look for myself
+#I didn't exactly know how to check for a 'christmas tree' so I decided to look for it myself
+#I know it isn't exactly a interesting solution but I really am too lazy
 marginx = 101
 marginy = 103
 
