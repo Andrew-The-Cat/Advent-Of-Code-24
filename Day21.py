@@ -1,4 +1,4 @@
-
+import time
 file = open("PuzzleIn.txt")
 
 numpad = [
@@ -167,6 +167,7 @@ def expandCtrl (depth, pad:str):
     return expandCtrl(depth + 1, pad)
 
 s = 0
+t1 = time.time()
 for line in file:
     _dirrobos = 1
     chunks.clear()
@@ -181,5 +182,6 @@ for line in file:
     print (f'x:{x} * r:{rez}  ---  {x * rez}')
     rez *= x
     s += rez
-
+t2 = time.time()
 print (s)
+print (t2-t1)
